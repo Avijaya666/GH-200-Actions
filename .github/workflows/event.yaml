@@ -1,8 +1,7 @@
 name: Push Event
 on: 
-  push:
-    branches: 
-      - feature
+  schedule:
+    - cron: '*/5 * * * *'
 jobs:
   show-info:
     runs-on: ubuntu-latest

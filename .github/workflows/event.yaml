@@ -2,7 +2,7 @@ name: Push Event
 on: 
   push:
     branches: 
-      - main
+      - feature
 jobs:
   show-info:
     runs-on: ubuntu-latest
